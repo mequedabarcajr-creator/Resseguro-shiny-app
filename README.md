@@ -49,7 +49,34 @@ Sinistros (Claims)
 
 Colunas típicas: claim_id, policy_id, loss_amount, date_of_loss
 
+ ## ## 🚀 Teste Online
 
+O aplicativo **ReinsuranceSolution** está disponível para uso online:
+
+🔗 [https://mequedabarca.shinyapps.io/reisurancesolution](https://mequedabarca.shinyapps.io/reisurancesolution)
+
+⚠️ **Atenção:** Todos os dados utilizados são simulados. Não insira informações sensíveis de clientes reais.
+
+---
+
+## 🧰 Funcionalidades
+
+- Cálculo de resseguro proporcional e não-proporcional
+- Visualização interativa de sinistros e apólices
+- Exportação de resultados em Excel ou CSV
+- Suporte a múltiplas moedas (MZN, USD, EUR, ZAR)
+- Relatórios dinâmicos e gráficos interativos
+
+---
+
+## 📦 Requisitos
+
+O aplicativo utiliza os seguintes pacotes R:
+
+```r
+shiny, shinydashboard, DT, dplyr, data.table, readr, readxl,
+stringr, purrr, lubridate, ggplot2, plotly, openxlsx,
+shinyvalidate, shinycssloaders, rmarkdown, zip
 
 
 
