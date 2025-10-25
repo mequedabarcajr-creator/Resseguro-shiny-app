@@ -29,6 +29,27 @@ stringr, purrr, lubridate, ggplot2, plotly, openxlsx,
 shinyvalidate, shinycssloaders, rmarkdown, zip
 
 
+required_pkgs <- c(
+  "shiny","shinydashboard","DT","dplyr","data.table","readr","readxl",
+  "stringr","purrr","lubridate","ggplot2","plotly","openxlsx",
+  "shinyvalidate","shinycssloaders","rmarkdown","zip"
+)
+missing <- required_pkgs[!required_pkgs %in% rownames(installed.packages())]
+if(length(missing)) install.packages(missing, dependencies = TRUE)
+
+## Estrutura de Dados
+
+O aplicativo requer duas bases principais (para cada tipo de resseguro):
+
+Apólices (Policies)
+
+Colunas típicas: policy_id, gross_premium, start_date, end_date, sum_insured
+
+Sinistros (Claims)
+
+Colunas típicas: claim_id, policy_id, loss_amount, date_of_loss
+
+
 
 
 
