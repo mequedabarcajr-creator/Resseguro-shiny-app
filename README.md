@@ -53,7 +53,7 @@ Colunas típicas: claim_id, policy_id, loss_amount, date_of_loss
 
 O aplicativo **ReinsuranceSolution** está disponível para uso online:
 
-🔗 [https://mequedabarca.shinyapps.io/reisurancesolution](https://mequedabarca.shinyapps.io/reisurancesolution)
+🔗 https://mequedabarca.shinyapps.io/reisurancesolution 
 
 ⚠️ **Atenção:** Todos os dados utilizados são simulados. Não insira informações sensíveis de clientes reais.
 
